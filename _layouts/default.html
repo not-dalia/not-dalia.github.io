@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html lang="{{ page.lang }}" {% if page.lang=="ar" %}dir="rtl" {% endif %}>
+{% include head.html %}
+
+<body>
+    <div class="container">
+
+        {% include header.html %}
+
+            {{ content }}
+
+
+        {% include footer.html %}
+    </div>
+    <script src="{{ site.baseurl }}/js/{{ page.lang }}/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+<div id="header">
+    <a id="logo" href="{{site.baseurl}}/">
+      <div class="logo-img">
+        <i class="fas fa-user-circle"> </i>
+      </div>
+      <div class="logo-text">{{ site.data.t.qudwa[page.lang] }}</div>
+    </a>
+    <div id="language-select" class='languages' current-page="{{page.ref}}">
+
+      {% assign mentors=site.mentors | where:"ref", page.ref | sort: 'lang' %}
+        {% for mentor in mentors %}
+          {% if page.lang == mentor.lang %}
+            <a class="{{ mentor.lang }} selected" >{{ site.data.t.language[mentor.lang] }}</a>
+          {% else %}
+            <a class="{{ mentor.lang }}" onclick="javascript:languageSelect('{{ mentor.url | prepend: site.baseurl }}', '{{mentor.lang}}');">{{ site.data.t.language[mentor.lang] }}</a>
+          {% endif %}
+          {% if forloop.last != true %}
+            &nbsp;&nbsp; | &nbsp;&nbsp;
+          {% endif %}
+        {% endfor %}
+        
+        {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+        {% for p in pages %}
+          {% if page.lang == p.lang %}
+            <a class="{{ p.lang }} selected" >{{ site.data.t.language[p.lang] }}</a>
+          {% else %}
+            <a class="{{ p.lang }}" onclick="javascript:languageSelect('{{ p.url | prepend: site.baseurl }}', '{{p.lang}}');">{{ site.data.t.language[p.lang] }}</a>
+          {% endif %}
+          {% if forloop.last != true %}
+            &nbsp;&nbsp; | &nbsp;&nbsp;
+          {% endif %}
+        {% endfor %}
+    </div>
+  </div>
