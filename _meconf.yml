@@ -1,6 +1,8 @@
 languages: 
-  - en
-  - ar
+  - name: english
+    key: en
+  - name: arabic
+    key: ar
 
 media: 'media'
 mentors: '_mentors'
