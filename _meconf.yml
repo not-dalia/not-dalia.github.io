@@ -1,1 +1,7 @@
-test: "Hello world!"
+languages: 
+  - en
+  - ar
+
+media: 'media'
+mentors: '_mentors'
+posts: '_mentor_posts'
