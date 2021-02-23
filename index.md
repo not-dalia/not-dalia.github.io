@@ -12,7 +12,7 @@ Hi, this page is not in its final form yet. I'm mainly using it to index github 
 - <a href="/kaplan-text-generator">K*A*P*L*A*N Text Generator</a>
 - <a href="/quizlet-word-parser">Quizlet Word Parser</a> - Potentially broken at the moment
 - <a href="/gitdown">Gitdown</a> - Turndown with GFM
-- <a href="https://gfm-toc.relevant.space">GFM TOC Generator</a> - A markdown table of content generator, GitHub flavoured
+- <a href="https://gfmtoc.relevant.space">GFM TOC Generator</a> - A markdown table of content generator, GitHub flavoured
 
 
 ## Random Gists:
