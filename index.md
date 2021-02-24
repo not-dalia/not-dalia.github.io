@@ -5,7 +5,7 @@ Hi, this page is not in its final form yet. I'm mainly using it to index github 
 
 ## Project GitHub Pages:
 
-- <a href="https://relevant.space/hypocycle/">The Hypocycle</a> - a hypnotising experiment
+- <a href="https://relevant.space/relevant-space/hypocycle/">The Hypocycle</a> - a hypnotising experiment
 - <a href="https://heartbeet.relevant.space/">Heartbeet</a> - WIP 
 - <a href="/marker-layout-generator">Marker Layout Generator</a>
 - <a href="/usb-data-filtered">USB Data with Filters</a>
