@@ -19,3 +19,9 @@ Hi, this page is not in its final form yet. I'm mainly using it to index github 
 - <a href="https://gist.github.com/not-dalia/acd47c11a2fe62b3b2e5ba108c71e429#file-youtube-skip-ads-js">Youtube
     Ads Skipper</a> - Currently broken. Very experimental. <br>
 
+
+## Testing code blocks
+```xml
+<a href="https://gist.github.com/not-dalia/acd47c11a2fe62b3b2e5ba108c71e429#file-youtube-skip-ads-js">Youtube
+    Ads Skipper</a> - Currently broken. Very experimental. <br>
+```
